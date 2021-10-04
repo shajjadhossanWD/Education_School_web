@@ -1,7 +1,9 @@
 
 # Project Title
 
-It's a React Js 4 pages Educated website, And the website name is WEBEDU . ## Color Reference
+It's a React Js 4 pages Educated website, And the website name is WEBEDU . 
+
+## Color Reference
 Using this color of our website
 
 | Color             | Hex                                                                |
