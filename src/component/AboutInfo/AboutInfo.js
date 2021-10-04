@@ -7,7 +7,7 @@ const AboutInfo = () => {
         <div className="aboutinfo">
             <Row xs={1} md={2} lg={3} className="g-4">
                 <Col>
-                <Card>
+                <Card className="cards">
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-5.jpg" />
                     <Card.Body>
                     <Card.Title className="text-primary">Welcome to WebEdu</Card.Title>
@@ -18,7 +18,7 @@ const AboutInfo = () => {
                 </Card>
                 </Col>
                 <Col>
-                <Card>
+                <Card className="cards">
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-6.jpg" />
                     <Card.Body>
                     <Card.Title className="text-primary">Why Choose Us?</Card.Title>
@@ -29,7 +29,7 @@ const AboutInfo = () => {
                 </Card>
                 </Col>
                 <Col>
-                <Card>
+                <Card className="cards">
                     <Card.Body>
                     <Card.Title className="text-primary">Learning includes</Card.Title>
                     <Card.Text>

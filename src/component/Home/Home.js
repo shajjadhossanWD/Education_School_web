@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Slider/>
             <div className="container">
-            <h1>Our <span>Services</span></h1>
+            <h1>Our Some <br /> <span> Popular Services</span></h1>
             <Row xs={1} md={2} className="g-4">
              {
                 data.slice(1, 5).map(da => <Shortservice data={da}></Shortservice>)

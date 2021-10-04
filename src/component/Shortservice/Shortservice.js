@@ -1,25 +1,29 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
+import './Shortservice.css';
+
 
 
 const Shortservice = (props) => {
- const {title, img, rating, rated, price, teacher} = props.data;
+ const {title, img, rating, rated, price, teacher,discription} = props.data;
     return (
         <Col>
-        <Card>
+        <Card className="cards">
           <Card.Img variant="top" src={img} />
           <Card.Body>
-            <Card.Title>{title}</Card.Title>
+            <Card.Title className="text-primary">{title}</Card.Title>
             <Card.Text>
             <Rating
+                className="rating"
                 initialRating={rating}
                 readonly
                 emptySymbol="far fa-star"
                 fullSymbol="fas fa-star"
               /> <b>(rated:{rated})</b>
                <p><b>$ {price}</b> only</p>
-               <p>Teacher: {teacher}</p>
+               <p><b>Teacher: {teacher}</b></p>
+               <p>{discription}</p>
             </Card.Text>
           </Card.Body>
         </Card>

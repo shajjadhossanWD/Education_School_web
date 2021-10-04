@@ -1,3 +1,26 @@
+.contact{
+    margin-bottom: 60px;
+}
 img{
     width: 100%;
+}
+input,textarea{
+    margin: 10px;
+    padding: 8px;
+}
+.inputgrp{
+    width: 36%;
+}
+.contact_box{
+    box-shadow: 0.5px 0.5px 8px 1px rgb(179, 172, 172);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.contact_box:hover{
+    background-color:rgb(42, 40, 40);
+    color: white;
+}
+h2{
+    font-size: 25px;
 }
