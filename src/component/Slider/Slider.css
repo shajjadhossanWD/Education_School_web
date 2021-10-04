@@ -1,0 +1,17 @@
+.carouselImg{
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+    background-color: black;
+}
+.heading{
+    color: goldenrod;
+    font-weight: bold;
+    text-shadow: 3px 3px 8px black;
+}
+.sub_heading{
+    text-shadow: 3px 3px 8px black;
+}
+.discription{
+    text-shadow: 5px 5px 5px black;
+}

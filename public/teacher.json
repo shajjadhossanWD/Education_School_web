@@ -1,0 +1,58 @@
+[
+    {
+        "name":"Jhankar Mahbub",
+        "sub":"Full Stack Developer",
+        "discription":"He is a driven, teach classes on javascript and has shown many new front-end and back-end concepts to his colleagues through Lunch & Learn sessions. ",
+        "salary": 10000,
+        "img":"https://yt3.ggpht.com/ytc/AKedOLTBLMf4tq8iRjYjbmOPzLlQbD31_D2E4AOSmFPGzw=s300-c-k-c0x00ffffff-no-rj"
+    },
+    {
+        "name":"Hosain sir",
+        "sub":"Frond-End Developer",
+        "discription":"He teaching html and css very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 5000,
+        "img":"https://yt3.ggpht.com/ytc/AKedOLQCaurU2q5jietenD4LaUIv2mlESLoQH5xr6RV0aw=s300-c-k-c0x00ffffff-no-rj"
+    },
+    {
+        "name":"Vinod Thapa",
+        "sub":"Javascript Developer",
+        "discription":"He teaching javascript basic to advance very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 8000,
+        "img":"https://blob.sololearn.com/avatars/fbcc786a-d55c-4ffe-8870-2a52cb029edc.jpg"
+    },
+    {
+        "name":"Sumit Sah",
+        "sub":"Back-end Developer",
+        "discription":"He teaching javascript framework angular js very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 9000,
+        "img":"https://digitalcarebd.com/wp-content/uploads/2021/02/Arafat-Hossain-300x300.jpg"
+    },
+    {
+        "name":"Jo stive",
+        "sub":"Front-end Developer",
+        "discription":"He teaching all css framework very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 7000,
+        "img":"https://img.etimg.com/thumb/msid-83393598,width-300,imgsize-17215,,resizemode-4,quality-100/k-nagaraj-naidu.jpg"
+    },
+    {
+        "name":"Harry Sir",
+        "sub":"React Developer",
+        "discription":"He teaching javascript famoust library react js very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 8500,
+        "img":"https://www.hexpol.com/wp-content/uploads/2020/09/profile-300x300-Harry-Wang.jpg"
+    },
+    {
+        "name":"Abdullad Amin",
+        "sub":"Wordpress Developer",
+        "discription":"He teaching wordpress basic to advance very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 6500,
+        "img":"https://bhp.co.uk/app/uploads/2020/03/Harry-Dunne-300x300.jpg"
+    },
+    {
+        "name":"jim sechen",
+        "sub":"Music Teacher",
+        "discription":"He teaching Music leason very friendly and easy to understand.He follow some easy teaching mathod which is very helpfull for students",
+        "salary": 6000,
+        "img":"https://ath2.unileverservices.com/wp-content/uploads/sites/4/2019/06/beard-grooming-tips-300x300.jpg"
+    }
+]

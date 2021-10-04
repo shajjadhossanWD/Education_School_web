@@ -1,0 +1,24 @@
+.footer{
+    background-color: rgb(42, 40, 40);;
+    color: white;
+}
+.social i{
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+    padding: 8px;
+    color: goldenrod;
+}
+.links{
+    text-align: center;
+    margin: auto;
+}
+.links h3{
+    margin-left: 18px;
+}
+li{
+    list-style: none;
+}
+NavLink{
+    color: white;
+}
