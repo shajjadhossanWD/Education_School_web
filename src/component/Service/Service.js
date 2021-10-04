@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { ButtonGroup, Card, Col } from 'react-bootstrap';
 import Rating from 'react-rating';
 import './Service.css';
 
@@ -22,6 +22,7 @@ const Service = (props) => {
                   /> <b>(rated:{rated})</b>
                    <p><b>$ {price}</b> only</p>
                    <p>Teacher: {teacher}</p>
+                   <ButtonGroup className="btn btn-primary">Add-Course</ButtonGroup>
                 </Card.Text>
               </Card.Body>
             </Card>
