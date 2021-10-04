@@ -9,7 +9,10 @@ const Home = () => {
     console.log(data)
     return (
         <div>
+           {/* carousel slider section ..... */}
             <Slider/>
+
+            {/* short services section ............  */}
             <div className="container">
             <h1>Our Some <br /> <span> Popular Services</span></h1>
             <Row xs={1} md={2} className="g-4">

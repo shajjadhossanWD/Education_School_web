@@ -4,6 +4,7 @@ import useData from '../../Hooks/useData';
 import Service from '../Service/Service';
 
 const Services = () => {
+    // services data and created hook...................
     const [data] = useData([]);
     return (
         <div className="container">

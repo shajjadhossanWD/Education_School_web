@@ -6,6 +6,7 @@ import './Service.css';
 const Service = (props) => {
     const {title, img, price, teacher, rating, rated} = props.singeldata;
     return (
+      //  Service card single data ....................
           <Col>
             <Card className='cards'>
               <Card.Img variant="top" src={img} />

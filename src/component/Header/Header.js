@@ -9,7 +9,10 @@ const Header = () => {
         }
     return (
         <div className="navbars">
+        {/* website name .............  */}
          <h3><i className="fas fa-graduation-cap"></i> WEB<span>EDU</span></h3>
+         
+         {/* menu section ............. */}
             <div>
                 <NavLink className="nav-item" to = "/home" activeStyle ={navStyle} >Home</NavLink>
                 <NavLink className="nav-item" to = "/services" activeStyle ={navStyle} >Services</NavLink>

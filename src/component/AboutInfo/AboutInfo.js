@@ -7,6 +7,8 @@ const AboutInfo = () => {
         <div className="aboutinfo">
             <Row xs={1} md={2} lg={3} className="g-4">
                 <Col>
+
+                {/* about welcom cards-1st ------------- */}
                 <Card className="cards">
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-5.jpg" />
                     <Card.Body>
@@ -18,6 +20,8 @@ const AboutInfo = () => {
                 </Card>
                 </Col>
                 <Col>
+
+                {/* about cards-2nd ............... */}
                 <Card className="cards">
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-6.jpg" />
                     <Card.Body>
@@ -29,6 +33,8 @@ const AboutInfo = () => {
                 </Card>
                 </Col>
                 <Col>
+
+                {/* about cards-3rd ....................... */}
                 <Card className="cards">
                     <Card.Body>
                     <Card.Title className="text-primary">Learning includes</Card.Title>

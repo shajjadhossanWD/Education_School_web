@@ -5,12 +5,15 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
         <div className="row footer">
+            {/* discribe section -------------- */}
             <div className="col-lg-4">
             <h3><i className="fas fa-graduation-cap"></i> WEB<span>EDU</span></h3>
             <p className='discribe'>Find Website For Learning near you. Discover us now! Easy Acces To Information. Simple in use. Multiple sources combined. All the Answers. Fast and trusted.</p>
             <p><b>stay with us and buil your skills</b></p>
             <p><small>ewebedu11@gmail.com</small></p>
             </div>
+
+            {/* menu bars link section ............ */}
             <div className="col-lg-4 links">
                 <h3>Links</h3>
                 <ul>
@@ -20,6 +23,8 @@ const Footer = () => {
                     <li><NavLink to="/home">Contact-Us</NavLink></li>
                 </ul>
             </div>
+
+            {/* social side section ------------- */}
             <div className="col-lg-4">
                 <div className="apps">
                     <h3>WEBEDU APP</h3> <br />

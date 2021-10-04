@@ -7,6 +7,7 @@ import './Shortservice.css';
 
 const Shortservice = (props) => {
  const {title, img, rating, rated, price, teacher,discription} = props.data;
+//  showen home section short services data .....................................
     return (
         <Col>
         <Card className="cards">

@@ -12,6 +12,7 @@ import Notfound from './component/Notfound/Notfound'
 function App() {
   return (
     <div>
+    {/* all router  */}
      <Router>
        <Header></Header>
        <Switch>

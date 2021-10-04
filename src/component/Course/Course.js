@@ -4,6 +4,7 @@ import './Course.css';
 const Course = (props) => {
     const {name, discription, icon} = props.course;
     return (
+        // our most popular course section ...............
         <Col className="course">
         <Card className="cards">
             <Card.Body>

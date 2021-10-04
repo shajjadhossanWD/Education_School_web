@@ -8,15 +8,20 @@ import Teacher from '../Teacher/Teacher';
 import './About.css';
 
 const About = () => {
+    // teacher state data ..........
     const [teachers, setTeachers] = useState([]);
-    const [courses, setCourses] = useState([]);
 
+    // course state data .......
+    const [courses, setCourses] = useState([]);
+    
+    // teachers useEffect ..............
     useEffect(()=>{
         fetch('./teacher.json')
         .then(res => res.json())
         .then(data=>setTeachers(data))
     },[])
 
+    //  course useEffect ................ 
     useEffect(()=>{
         fetch('./courses.json')
         .then(res => res.json())
@@ -25,12 +30,14 @@ const About = () => {
 
     return (
         <div className="container">
-
+            
+            {/* About us section ------------- */}
             <div className="about">
                 <h1><span>About</span> Us</h1>
                 <AboutInfo></AboutInfo>
             </div>
-
+           
+           {/* our teachers section ---------------- */}
           <div className="teachers">
             <h1>Our Most <br /> <span> Popular Teachers</span></h1>
               <Row xs={1} md={2} lg={4} className="g-4">
@@ -40,6 +47,7 @@ const About = () => {
               </Row>
            </div>
 
+            {/* Our courses section --------------------- */}
            <div className="courses">
                   <h1>Our Popular <br /> <span>Courses</span></h1>
               <Row xs={1} md={2} lg={3} className="g-4">

@@ -5,6 +5,7 @@ import './Teacher.css';
 const Teacher = (props) => {
     const {name, img, salary, sub, discription } = props.teacher;
     return (
+      // teacher detalis cards ............
         <Col>
         <Card>
           <Card.Img variant="top" src={img} />

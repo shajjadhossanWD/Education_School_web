@@ -6,11 +6,14 @@ const Contact = () => {
             <div className="img_div">
              <h1>Contact <span>Us.</span></h1>
             </div>
-            {/* <img src="" alt="" /> */}
+
+
             <div className="container">
             <h1>Get <span>In Touch </span></h1>
                     <p className='m-2'><b>Have a question or just contact with us for buy a course ? We'd love to here from you..</b></p>
                     <div className="row">
+
+                       {/* input group section --------------- */}
                         <div className="col-lg-7">
                         <input className="inputgrp" type="text" placeholder="Your Name" />
                         <input className="inputgrp" type="email" placeholder="Your Email" />
@@ -18,6 +21,8 @@ const Contact = () => {
                         <textarea name="massage" id="" cols="40" rows="5" placeholder="Enter Your Massage"></textarea><br />
                         <button className="btn btn-primary ms-2 mb-4">Send massage</button>
                         </div>
+
+                        {/* address and contact medium section ........ */}
                         <div className="col-lg-5">
                            <div className="contact_box">
                                <h2 className="text-primary"> <i className="fas fa-map-marker-alt"></i> Our Office Address</h2>

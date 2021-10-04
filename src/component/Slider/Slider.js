@@ -4,7 +4,10 @@ import { Carousel } from 'react-bootstrap';
 
 const Slider = () => {
     return (
+      // home carousel slider data ...............................
         <Carousel fade interval={2000}>
+
+        {/* 1st carousel............  */}
         <Carousel.Item>
           <img
             className="d-block  carouselImg"
@@ -16,7 +19,9 @@ const Slider = () => {
             <h1 className="w-75 mx-auto  mb-3 sub_heading">Grow your Knowledge and bulid your golden career with us.</h1>
             <p className="w-50 mx-auto  mb-5 pb-5">Find Online Educational safe and secure! Discover us now! Easy Acces To Information. Simple in use. Multiple sources combined. All the Answers. Fast and trusted. </p>
           </Carousel.Caption>
-        </Carousel.Item>   
+        </Carousel.Item> 
+
+        {/* 2nd carousel ............   */}
         <Carousel.Item>
           <img
             className="d-block  carouselImg"
@@ -30,6 +35,8 @@ const Slider = () => {
             <p className="w-50 mx-auto mb-5 pb-5 discription">  In this model, the teacher's role in online conferencing is to facilitate learning. Her description suggests that the e-moderator does not require extensive subject matter expertise</p>
           </Carousel.Caption>
         </Carousel.Item>
+
+        {/* 3rd carousel.................  */}
         <Carousel.Item>
           <img
             className="d-block  carouselImg"
