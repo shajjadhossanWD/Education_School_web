@@ -1,0 +1,11 @@
+.aboutinfo{
+    margin-bottom: 60px;
+}
+li{
+    margin: 20px 0;
+    font-size: 19px;
+}
+li i{
+    margin:0 5px;
+    color: goldenrod;
+}

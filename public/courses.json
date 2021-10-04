@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Data Science",
+        "discription": "Data is Everything",
+        "icon":"fas fa-microscope"
+    },
+    {
+        "name":"Business",
+        "discription": "Improve your business",
+        "icon":"fas fa-business-time"
+    },
+    {
+        "name":"Art & Design",
+        "discription": "Fun & Challenging",
+        "icon":"fas fa-pencil-ruler"
+    },
+    {
+        "name":"Front-End Development",
+        "discription": "Make many awesome sites",
+        "icon":"fas fa-code"
+    },
+    {
+        "name":"Back-End Development",
+        "discription": "Developed website",
+        "icon":"fas fa-file-code"
+    },
+    {
+        "name":"Music",
+        "discription": "Major or Minor",
+        "icon":"fas fa-guitar"
+    }
+]

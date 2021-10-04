@@ -1,16 +1,16 @@
-
 import React from 'react';
+import './AboutInfo.css';
 import { ButtonGroup, Card, Col, Row } from 'react-bootstrap';
 
 const AboutInfo = () => {
     return (
-        <div>
+        <div className="aboutinfo">
             <Row xs={1} md={2} lg={3} className="g-4">
                 <Col>
                 <Card>
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-5.jpg" />
                     <Card.Body>
-                    <Card.Title>Welcome to WebEdu</Card.Title>
+                    <Card.Title className="text-primary">Welcome to WebEdu</Card.Title>
                     <Card.Text>
                        We provide you our best services. If want to build your skills it's the right place. Here you can learn all those things that's you actually want.Thank's for visit our website. 
                     </Card.Text>
@@ -21,7 +21,7 @@ const AboutInfo = () => {
                 <Card>
                     <Card.Img variant="top" src="https://educator.qodeinteractive.com/wp-content/uploads/2017/07/h2-image-6.jpg" />
                     <Card.Body>
-                    <Card.Title>Why Choose Us?</Card.Title>
+                    <Card.Title className="text-primary">Why Choose Us?</Card.Title>
                     <Card.Text>
                        We provide you our best services and also if you have no skills, no problem we teaching here zero level to upper level. And also all teacher teach you vary friendly way. 
                     </Card.Text>
@@ -31,7 +31,7 @@ const AboutInfo = () => {
                 <Col>
                 <Card>
                     <Card.Body>
-                    <Card.Title>Learning includes</Card.Title>
+                    <Card.Title className="text-primary">Learning includes</Card.Title>
                     <Card.Text>
                       <ul>
                           <li><i className="far fa-hand-point-right"></i>We enrich lives through playing</li>

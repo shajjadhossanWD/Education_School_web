@@ -1,0 +1,8 @@
+i{
+    font-size: 25px;
+    color: goldenrod;
+}
+.cards:hover{
+    background-color: rgb(42, 40, 40);
+    color: white;
+}

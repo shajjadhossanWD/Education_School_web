@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
-import Rating from 'react-rating';
+import './Teacher.css';
 
 const Teacher = (props) => {
     const {name, img, salary, sub, discription } = props.teacher;
@@ -9,9 +9,9 @@ const Teacher = (props) => {
         <Card>
           <Card.Img variant="top" src={img} />
           <Card.Body>
-            <Card.Title>{name}</Card.Title>
+            <Card.Title className="text-primary">{name}</Card.Title>
             <Card.Text>
-               <p> {sub}</p>
+               <p className="subject"> {sub}</p>
                <p>salary:<b>$ {salary}</b></p>
                <p>{discription.slice(1, 105)}</p>
             </Card.Text>
