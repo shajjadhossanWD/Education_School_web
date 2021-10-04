@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="row footer">
             <div className="col-lg-4">
             <h3><i className="fas fa-graduation-cap"></i> WEB<span>EDU</span></h3>
-            <p>Find Website For Learning near you. Discover us now! Easy Acces To Information. Simple in use. Multiple sources combined. All the Answers. Fast and trusted.</p>
+            <p className='discribe'>Find Website For Learning near you. Discover us now! Easy Acces To Information. Simple in use. Multiple sources combined. All the Answers. Fast and trusted.</p>
             <p><b>stay with us and buil your skills</b></p>
             <p><small>ewebedu11@gmail.com</small></p>
             </div>
@@ -23,8 +23,8 @@ const Footer = () => {
             <div className="col-lg-4">
                 <div className="apps">
                     <h3>WEBEDU APP</h3> <br />
-                    <button><i className="fab fa-google-play"></i> Download Now</button>
-                    <button><i className="fab fa-apple"></i> Download Now</button>
+                    <button className="btn btn-primary m-2"><i className="fab fa-google-play"></i> Download Now</button>
+                    <button className="btn btn-primary m-2"><i className="fab fa-apple"></i> Download Now</button>
                 </div>
                 <div className="social">
                     <h3>Social Media</h3>

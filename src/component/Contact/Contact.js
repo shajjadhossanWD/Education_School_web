@@ -1,9 +1,12 @@
 import React from 'react';
-import "./Contact.css"
+import "./Contact.css";
 const Contact = () => {
     return (
         <div className="contact">
-            <img src="https://themepure.net/template/educal/educal/assets/img/page-title/page-title.jpg" alt="" />
+            <div className="img_div">
+             <h1>Contact <span>Us.</span></h1>
+            </div>
+            {/* <img src="" alt="" /> */}
             <div className="container">
             <h1>Get <span>In Touch </span></h1>
                     <p className='m-2'><b>Have a question or just contact with us for buy a course ? We'd love to here from you..</b></p>
@@ -12,7 +15,8 @@ const Contact = () => {
                         <input className="inputgrp" type="text" placeholder="Your Name" />
                         <input className="inputgrp" type="email" placeholder="Your Email" />
                         <p><input className="w-75" type="text" placeholder="Your Subject" /></p>
-                        <textarea name="massage" id="" cols="60" rows="10" placeholder="Enter Your Massage"></textarea>
+                        <textarea name="massage" id="" cols="40" rows="5" placeholder="Enter Your Massage"></textarea><br />
+                        <button className="btn btn-primary ms-2 mb-4">Send massage</button>
                         </div>
                         <div className="col-lg-5">
                            <div className="contact_box">

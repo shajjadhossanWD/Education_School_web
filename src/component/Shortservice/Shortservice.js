@@ -10,7 +10,7 @@ const Shortservice = (props) => {
     return (
         <Col>
         <Card className="cards">
-          <Card.Img variant="top" src={img} />
+          <Card.Img variant="top" src={img} className="slider_img"/>
           <Card.Body>
             <Card.Title className="text-primary">{title}</Card.Title>
             <Card.Text>
